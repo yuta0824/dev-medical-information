@@ -42,7 +42,7 @@ body {
 }
 
 .p-first-view__table {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .p-table {
@@ -75,11 +75,10 @@ body {
 @media (min-width: 768px) {
   .p-first-view {
     background-image: url(../img/bg_fv_pc.webp);
-    min-height: 800px;
   }
 
   .p-first-view__heading {
-    font-size: 64px;
+    font-size: 54px;
   }
 
   .p-first-view__table {
