@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
@@ -29,20 +30,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  min-height: 600px;
+  min-height: 400px;
   padding: 40px 10px;
   place-content: center;
 }
 
 .p-first-view__heading {
   background-color: rgba(255, 255, 255, 0.7);
-  font-size: 30px;
+  font-size: 24px;
   padding: 5px;
   text-align: center;
 }
 
 .p-first-view__table {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .p-table {
@@ -83,6 +84,7 @@ body {
 
   .p-first-view__table {
     margin-inline: auto;
+    margin-top: 60px;
     max-width: 800px;
   }
 
